@@ -9,7 +9,7 @@ A Fuzzy-Pattern Tsetlin Machine (FPTM) classifier is trained on threshold-coded 
 | Folder | Content |
 |---|---|
 | `code/` | Python, Julia and shell scripts: dataset building, FPTM detection, baselines, sweeps, localization, clause analysis, ablation, timing, figures, reference checks |
-| `results/` | Raw outputs behind every number in the paper: per-subset sweep results (`*_sweep.jsonl`, `*_fptm.jsonl`), localization (`loc_*.json`, `sa_*.json`, `ascad_classic_loc.json`, `locn_ascad.json`), clause dumps and statistics (`ascad_clause*`), timing (`timing_*`), run logs |
+| `results/` | Raw outputs behind every number in the paper: per-subset sweep results (`*_sweep.jsonl`, `*_fptm.jsonl`), localization (`loc_*.json`, `sa_*.json`, `ascad_classic_loc.json`, `locn_ascad.json`), clause dumps and statistics (`ascad_clause*`), timing (`timing_*`), GainP case study (`gainp_*`, `aggregate_gainp.json`, noiseless ground truth `gainp_gt_noiseless.npz`), trained models used for the GainP inference model (`models/`), run logs |
 
 Trace data are not included. The scripts download them from the original sources.
 
@@ -57,9 +57,17 @@ All scripts resolve paths against one root folder:
 7. **Clause analysis.** `julia -t 2 code/dump_clauses.jl WORKDIR SEED EPOCHS OUTFILE`, then `python3 -I code/clause_null.py` (permutation test on the share cores).
 8. **Cost.** `code/timing.py <set> <epochs>` and `code/timing_fptm.jl WORKDIR`.
 9. **Figures.** `python3 -I code/figs_paper.py OUTDIR ttd,loc_unmasked,loc_ascad`.
-10. **References.** `code/verify_refs.py` pulls Crossref and arXiv metadata for every reference (`results/reference_metadata_raw.json`).
+10. **GainP case study** (simulated, Section 4 of the paper).
+    * `code/gainp_sim.py`: functional model of the GainP associative processor (compare, write, per-cycle energy).
+    * `code/gainp_mlkem.py`: ML-KEM modular product kernel on the model. Running it checks the result against `a*b mod q`.
+    * `python3 -I code/gainp_traces.py build 50000`, then `python3 -I code/gainp_traces.py make SIGMA` for SIGMA = 250, 500, 1000, 2000 (fJ): fixed key versus random key traces in `data/gainp_s<SIGMA>/`.
+    * `code/run_gainp.sh`: traces-to-detection sweeps. `python3 -I code/agg_gainp.py` writes `results/aggregate_gainp.json`.
+    * `python3 -I code/prep_fptm.py gainp_s1000 3`, then `code/run_gainp_loc.sh gainp_s1000`: localization runs, DL-LA sensitivity analysis, `code/loc_eval_gainp.py` (cycle-exact ground truth) and FPTM inference on GainP.
+    * `code/dump_model.jl` and `code/gainp_fptm.py`: FPTM inference on the GainP model for any trained model, with a check that votes and predictions equal the Julia implementation (`results/gainp_fptm_<set>.json`).
+    * `python3 -I code/fig_gainp.py OUTDIR`: GainP figure.
+11. **References.** `code/verify_refs.py` pulls Crossref and arXiv metadata for every reference (`results/reference_metadata_raw.json`).
 
-Scripts from the first feasibility run (`classic.py`, `drift.py`, `shift.py`, `align.py`, `prep.py`, `fptm_sweep.jl`, `sweep_idx.py`, `sweep_t.py`, `figs.py`, `loc.py`, `inspect*.py`, `smoke.jl`, `check_*.py`, `check_pred.jl`) are kept for completeness. The paper uses the pipeline above.
+Scripts from the first feasibility run (`classic.py`, `drift.py`, `shift.py`, `align.py`, `prep.py`, `fptm_sweep.jl`, `sweep_idx.py`, `sweep_t.py`, `figs.py`, `loc.py`, `inspect_ledger.py`, `inspect2.py`, `smoke.jl`, `check_*.py`, `check_pred.jl`) are kept for completeness. The paper uses the pipeline above.
 
 ## Configuration used in the paper
 

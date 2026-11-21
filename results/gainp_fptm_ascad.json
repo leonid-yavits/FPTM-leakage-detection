@@ -1,0 +1,20 @@
+{
+ "workdir": "/home/claude/work/ascad_K3",
+ "test_traces": 10896,
+ "clauses": 400,
+ "literals": 7318,
+ "max_literals_per_clause": 26,
+ "rows_used": 55,
+ "cycles": 183347,
+ "compares": 107050,
+ "writes": 76297,
+ "latency_us": 366.694,
+ "energy_nJ_per_trace_mean": 1.7667568303596415,
+ "energy_nJ_per_trace_min": 1.7550264160005713,
+ "energy_nJ_per_trace_max": 1.782237808000665,
+ "match_votes_pos": true,
+ "match_votes_neg": true,
+ "match_pred": true,
+ "accuracy": 0.5459801762114538,
+ "sim_seconds": 2.1
+}

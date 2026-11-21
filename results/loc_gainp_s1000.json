@@ -1,0 +1,66 @@
+{
+ "ds": "gainp_s1000",
+ "cycles": 3504,
+ "compare_cycles": 2478,
+ "leaking_cycles": 1154,
+ "chance_leak": 0.329337899543379,
+ "chance_strong100": 0.028538812785388126,
+ "fptm": {
+  "p@10": 1.0,
+  "strong_p@10": 1.0,
+  "write_cycles_in_top10": 0,
+  "p@20": 1.0,
+  "strong_p@20": 0.9,
+  "write_cycles_in_top20": 0,
+  "p@50": 0.98,
+  "strong_p@50": 0.76,
+  "write_cycles_in_top50": 0,
+  "p@100": 0.98,
+  "strong_p@100": 0.61,
+  "write_cycles_in_top100": 1,
+  "p@20_seeds": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "strong_p@20_seeds": [
+   0.95,
+   0.85,
+   0.9
+  ]
+ },
+ "dlla_sa": {
+  "p@10": 1.0,
+  "strong_p@10": 1.0,
+  "write_cycles_in_top10": 0,
+  "p@20": 1.0,
+  "strong_p@20": 0.9,
+  "write_cycles_in_top20": 0,
+  "p@50": 0.98,
+  "strong_p@50": 0.76,
+  "write_cycles_in_top50": 0,
+  "p@100": 0.98,
+  "strong_p@100": 0.59,
+  "write_cycles_in_top100": 0,
+  "p@20_seeds": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "strong_p@20_seeds": [
+   0.95,
+   0.9,
+   0.9
+  ]
+ },
+ "welch_train": {
+  "p@10": 1.0,
+  "p@20": 1.0,
+  "p@50": 1.0,
+  "p@100": 0.99,
+  "strong_p@10": 1.0,
+  "strong_p@20": 0.95,
+  "strong_p@50": 0.84,
+  "strong_p@100": 0.68
+ }
+}

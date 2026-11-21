@@ -1,0 +1,20 @@
+{
+ "workdir": "/home/claude/work/pqm4_K3",
+ "test_traces": 3148,
+ "clauses": 400,
+ "literals": 8972,
+ "max_literals_per_clause": 38,
+ "rows_used": 67,
+ "cycles": 218081,
+ "compares": 126898,
+ "writes": 91183,
+ "latency_us": 436.16200000000003,
+ "energy_nJ_per_trace_mean": 2.1090642171824414,
+ "energy_nJ_per_trace_min": 2.1028268560007186,
+ "energy_nJ_per_trace_max": 2.11624358400076,
+ "match_votes_pos": true,
+ "match_votes_neg": true,
+ "match_pred": true,
+ "accuracy": 0.7090216010165185,
+ "sim_seconds": 1.4
+}

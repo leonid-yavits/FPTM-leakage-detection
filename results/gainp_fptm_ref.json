@@ -1,0 +1,20 @@
+{
+ "workdir": "/home/claude/work/ref_K3",
+ "test_traces": 3130,
+ "clauses": 400,
+ "literals": 9398,
+ "max_literals_per_clause": 36,
+ "rows_used": 65,
+ "cycles": 227027,
+ "compares": 132010,
+ "writes": 95017,
+ "latency_us": 454.05400000000003,
+ "energy_nJ_per_trace_mean": 2.1980819642998175,
+ "energy_nJ_per_trace_min": 2.190040112000747,
+ "energy_nJ_per_trace_max": 2.210070720000833,
+ "match_votes_pos": true,
+ "match_votes_neg": true,
+ "match_pred": true,
+ "accuracy": 0.9194888178913738,
+ "sim_seconds": 1.4
+}

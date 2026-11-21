@@ -1,0 +1,7 @@
+RESULT tag=s1 labels=y best_epoch=4 val=0.6116 test=0.6010 (k=7512/n=12500) log10p=-113.10
+literals total 8109, samples touched 2815
+RESULT tag=s2 labels=y best_epoch=10 val=0.6129 test=0.6000 (k=7500/n=12500) log10p=-110.97
+literals total 7852, samples touched 2754
+RESULT tag=s3 labels=y best_epoch=2 val=0.6095 test=0.6073 (k=7591/n=12500) log10p=-127.62
+literals total 8136, samples touched 2966
+RESULT tag=null labels=ynull best_epoch=3 val=0.5018 test=0.5043 (k=6304/n=12500) log10p=-0.77
