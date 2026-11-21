@@ -1,0 +1,760 @@
+{
+ "moos2021dlla": {
+  "crossref_doi": {
+   "doi": "10.46586/tches.v2021.i3.552-598",
+   "title": "DL-LA: Deep Learning Leakage Assessment",
+   "authors": "Thorben Moos, Felix Wegener, Amir Moradi",
+   "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+   "volume": null,
+   "issue": null,
+   "pages": "552-598",
+   "year": 2021,
+   "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+   "type": "journal-article"
+  }
+ },
+ "moradi2018chi2": {
+  "crossref_doi": "ERROR HTTP Error 404: Not Found"
+ },
+ "bronchain2019": {
+  "crossref_doi": "ERROR HTTP Error 404: Not Found"
+ },
+ "yap2023ttdcnn": {
+  "crossref_doi": {
+   "doi": "10.46586/tches.v2023.i2.24-53",
+   "title": "Peek into the Black-Box: Interpretable Neural Network using SAT Equations in Side-Channel Analysis",
+   "authors": "Trevor Yap, Adrien Benamira, Shivam Bhasin, Thomas Peyrin",
+   "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+   "volume": null,
+   "issue": null,
+   "pages": "24-53",
+   "year": 2023,
+   "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+   "type": "journal-article"
+  }
+ },
+ "gao2024explainable": {
+  "crossref_doi": {
+   "doi": "10.1007/978-3-031-58734-4_8",
+   "title": "A Novel Framework for\u00a0Explainable Leakage Assessment",
+   "authors": "Si Gao, Elisabeth Oswald",
+   "container": "Lecture Notes in Computer Science",
+   "volume": null,
+   "issue": null,
+   "pages": "221-250",
+   "year": 2024,
+   "publisher": "Springer Nature Switzerland",
+   "type": "book-chapter"
+  }
+ },
+ "levi2026gainp": {
+  "crossref_doi": {
+   "doi": "10.1016/j.sysarc.2025.103632",
+   "title": "GainP: A Gain Cell Embedded DRAM-based associative in-memory processor",
+   "authors": "Yaniv Levi, Odem Harel, Adam Teman, Leonid Yavits",
+   "container": "Journal of Systems Architecture",
+   "volume": "172",
+   "issue": null,
+   "pages": "103632",
+   "year": 2026,
+   "publisher": "Elsevier BV",
+   "type": "journal-article"
+  }
+ },
+ "yap2024occpois": {
+  "crossref_doi": {
+   "doi": "10.1007/978-3-031-80311-6_1",
+   "title": "OccPoIs: Points of\u00a0Interest Based on\u00a0Neural Network\u2019s Key Recovery in\u00a0Side-Channel Analysis Through Occlusion",
+   "authors": "Trevor Yap, Stjepan Picek, Shivam Bhasin",
+   "container": "Lecture Notes in Computer Science",
+   "volume": null,
+   "issue": null,
+   "pages": "3-28",
+   "year": 2025,
+   "publisher": "Springer Nature Switzerland",
+   "type": "book-chapter"
+  }
+ },
+ "ensan2021scare": {
+  "crossref_doi": {
+   "doi": "10.1109/tvlsi.2021.3110744",
+   "title": "SCARE: Side Channel Attack on In-Memory Computing for Reverse Engineering",
+   "authors": "Sina Sayyah Ensan, Karthikeyan Nagarajan, Mohammad Nasim Imtiaz Khan, Swaroop Ghosh",
+   "container": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "volume": "29",
+   "issue": "12",
+   "pages": "2040-2051",
+   "year": 2021,
+   "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+   "type": "journal-article"
+  }
+ },
+ "fips203": {
+  "crossref_doi": {
+   "doi": "10.6028/nist.fips.203",
+   "title": "Module-lattice-based key-encapsulation mechanism standard",
+   "authors": "",
+   "container": "",
+   "volume": null,
+   "issue": null,
+   "pages": null,
+   "year": 2024,
+   "publisher": "National Institute of Standards and Technology (U.S.)",
+   "type": "report"
+  }
+ },
+ "lei2025leax": {
+  "crossref_doi": {
+   "doi": "10.1007/978-3-032-00627-1_16",
+   "title": "LeaX: Class-Focused Explanations for\u00a0Locating Leakage in\u00a0Learning-Based Profiling Attacks",
+   "authors": "Qi Lei, Christian Wressnegger",
+   "container": "Lecture Notes in Computer Science",
+   "volume": null,
+   "issue": null,
+   "pages": "321-342",
+   "year": 2025,
+   "publisher": "Springer Nature Switzerland",
+   "type": "book-chapter"
+  }
+ },
+ "huang2022rpdcov": {
+  "crossref_doi": {
+   "doi": "10.3389/fams.2021.779841",
+   "title": "A Statistically and Numerically Efficient Independence Test Based on Random Projections and Distance Covariance",
+   "authors": "Cheng Huang, Xiaoming Huo",
+   "container": "Frontiers in Applied Mathematics and Statistics",
+   "volume": "7",
+   "issue": null,
+   "pages": null,
+   "year": 2022,
+   "publisher": "Frontiers Media SA",
+   "type": "journal-article"
+  }
+ },
+ "chowdhury2026mvld": {
+  "crossref_search": [
+   {
+    "doi": "10.46586/tches.v2026.i2.296-324",
+    "title": "Multivariate Leakage Detection",
+    "authors": "Aakash Chowdhury, Elisabeth Oswald",
+    "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "volume": "2026",
+    "issue": "2",
+    "pages": "296-324",
+    "year": 2026,
+    "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.46586/tches.v2026.i2.28-50",
+    "title": "Racing against the clock: side-channel leakage from crossing asynchronous clock domains",
+    "authors": "Martin Thompson, David Oswald",
+    "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "volume": "2026",
+    "issue": "2",
+    "pages": "28-50",
+    "year": 2026,
+    "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.46586/tches.v2022.i4.311-348",
+    "title": "PROLEAD",
+    "authors": "Nicolai M\u00fcller, Amir Moradi",
+    "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "volume": null,
+    "issue": null,
+    "pages": "311-348",
+    "year": 2022,
+    "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+    "type": "journal-article"
+   }
+  ]
+ },
+ "schneider2015": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/978-3-662-48324-4_25",
+    "title": "Leakage Assessment Methodology",
+    "authors": "Tobias Schneider, Amir Moradi",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "495-513",
+    "year": 2015,
+    "publisher": "Springer Berlin Heidelberg",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/s13389-016-0120-y",
+    "title": "Leakage assessment methodology",
+    "authors": "Tobias Schneider, Amir Moradi",
+    "container": "Journal of Cryptographic Engineering",
+    "volume": "6",
+    "issue": "2",
+    "pages": "85-99",
+    "year": 2016,
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-662-48324-4_23",
+    "title": "Assessment of Hiding the Higher-Order Leakages in Hardware",
+    "authors": "Amir Moradi, Alexander Wild",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "453-474",
+    "year": 2015,
+    "publisher": "Springer Berlin Heidelberg",
+    "type": "book-chapter"
+   }
+  ]
+ },
+ "valk2020kilroy": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/978-3-030-68773-1_9",
+    "title": "Kilroy Was Here: The First Step Towards Explainability of Neural Networks in Profiled Side-Channel Analysis",
+    "authors": "Daan van der Valk, Stjepan Picek, Shivam Bhasin",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "175-199",
+    "year": 2021,
+    "publisher": "Springer International Publishing",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.13164/re.2019.0651",
+    "title": "Convolutional Neural Networks for Profiled Side-channel Analysis",
+    "authors": "S. R. Hou, Y. J. Zhou, H. M. Liu",
+    "container": "Radioengineering",
+    "volume": "27",
+    "issue": "3",
+    "pages": "651-658",
+    "year": 2019,
+    "publisher": "Brno University of Technology",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/dac18072.2020.9218520",
+    "title": "Learning From A Big Brother - Mimicking Neural Networks in Profiled Side-channel Analysis",
+    "authors": "Daan van der Valk, Marina Krcek, Stjepan Picek, Shivam Bhasin",
+    "container": "2020 57th ACM/IEEE Design Automation Conference (DAC)",
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "year": 2020,
+    "publisher": "IEEE",
+    "type": "proceedings-article"
+   }
+  ]
+ },
+ "benadjila2020ascad": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/s13389-019-00220-8",
+    "title": "Deep learning for side-channel analysis and introduction to ASCAD database",
+    "authors": "Ryad Benadjila, Emmanuel Prouff, R\u00e9mi Strullu, Eleonora Cagli, C\u00e9cile Dumas",
+    "container": "Journal of Cryptographic Engineering",
+    "volume": "10",
+    "issue": "2",
+    "pages": "163-188",
+    "year": 2020,
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.46586/tches.v2020.i1.348-375",
+    "title": "A Comprehensive Study of Deep Learning for Side-Channel Analysis",
+    "authors": "Lo\u00efc Masure, C\u00e9cile Dumas, Emmanuel Prouff",
+    "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "volume": null,
+    "issue": null,
+    "pages": "348-375",
+    "year": 2019,
+    "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/trustcom53373.2021.00081",
+    "title": "Effective Deep Learning-based Side-Channel Analyses Against ASCAD",
+    "authors": "Junkai Liu, Shihui Zheng, Lize Gu",
+    "container": "2021 IEEE 20th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "volume": null,
+    "issue": null,
+    "pages": "514-523",
+    "year": 2021,
+    "publisher": "IEEE",
+    "type": "proceedings-article"
+   }
+  ]
+ },
+ "yoshida2025kan": {
+  "crossref_search": [
+   {
+    "doi": "10.52202/085713-3155",
+    "title": "Interpreting Emergent Features in Deep Learning-based Side-channel Analysis",
+    "authors": "Sengim Karayalcin, Marina Kr\u010dek, Stjepan Picek",
+    "container": "Advances in Neural Information Processing Systems 38",
+    "volume": null,
+    "issue": null,
+    "pages": "104625-104654",
+    "year": 2025,
+    "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+    "type": "proceedings-article"
+   },
+   {
+    "doi": "10.3390/math11153265",
+    "title": "Resolving the Doubts: On the Construction and Use of ResNets for Side-Channel Analysis",
+    "authors": "Sengim Karayalcin, Guilherme Perin, Stjepan Picek",
+    "container": "Mathematics",
+    "volume": "11",
+    "issue": "15",
+    "pages": "3265",
+    "year": 2023,
+    "publisher": "MDPI AG",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.3390/math12203279",
+    "title": "Shift-Invariance Robustness of Convolutional Neural Networks in Side-Channel Analysis",
+    "authors": "Marina Kr\u010dek, Lichao Wu, Guilherme Perin, Stjepan Picek",
+    "container": "Mathematics",
+    "volume": "12",
+    "issue": "20",
+    "pages": "3279",
+    "year": 2024,
+    "publisher": "MDPI AG",
+    "type": "journal-article"
+   }
+  ]
+ },
+ "wang2024imc": {
+  "crossref_search": [
+   {
+    "doi": "10.1109/tetc.2023.3257684",
+    "title": "Side-Channel Attack Analysis on In-Memory Computing Architectures",
+    "authors": "Ziyu Wang, Fan-Hsuan Meng, Yongmo Park, Jason K. Eshraghian, Wei D. Lu",
+    "container": "IEEE Transactions on Emerging Topics in Computing",
+    "volume": "12",
+    "issue": "1",
+    "pages": "109-121",
+    "year": 2024,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/tetc.2024.3369288",
+    "title": "Guest Editorial IEEE Transactions on Emerging Topics in Special Section on Emerging In-Memory Computing Architectures and Applications",
+    "authors": "Alberto Bosio, Ronald F. DeMara, Deliang Fan, Nima TaheriNejad",
+    "container": "IEEE Transactions on Emerging Topics in Computing",
+    "volume": "12",
+    "issue": "1",
+    "pages": "4-6",
+    "year": 2024,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/tetc.2023.3267909",
+    "title": "Guest Editorial: IEEE Transactions on Emerging Topics in Computing Thematic Section on Memory- Centric Designs: Processing-in-Memory, In-Memory Computing, and Near-Memory Computing for Real-World Applications",
+    "authors": "Yuan-Hao Chang, Vincenzo Piuri",
+    "container": "IEEE Transactions on Emerging Topics in Computing",
+    "volume": "11",
+    "issue": "2",
+    "pages": "278-280",
+    "year": 2023,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article"
+   }
+  ],
+  "arxiv": {
+   "arxiv": "2209.02792",
+   "title": "Side-channel attack analysis on in-memory computing architectures",
+   "authors": "Ziyu Wang, Fan-hsuan Meng, Yongmo Park, Jason K. Eshraghian, Wei D. Lu",
+   "published": "2022-09-06",
+   "journal_ref": "IEEE Transactions on Emerging Topics in Computing (2023)",
+   "doi": "10.1109/TETC.2023.3257684"
+  }
+ },
+ "yavits2015rap": {
+  "crossref_search": [
+   {
+    "doi": "10.1109/lca.2014.2374597",
+    "title": "Resistive Associative Processor",
+    "authors": "Leonid Yavits, Shahar Kvatinsky, Amir Morad, Ran Ginosar",
+    "container": "IEEE Computer Architecture Letters",
+    "volume": "14",
+    "issue": "2",
+    "pages": "148-151",
+    "year": 2015,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/tc.2013.220",
+    "title": "Computer Architecture with Associative Processor Replacing Last-Level Cache and SIMD Accelerator",
+    "authors": "Leonid Yavits, Amir Morad, Ran Ginosar",
+    "container": "IEEE Transactions on Computers",
+    "volume": "64",
+    "issue": "2",
+    "pages": "368-381",
+    "year": 2015,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1145/2845084",
+    "title": "Resistive GP-SIMD Processing-In-Memory",
+    "authors": "Amir Morad, Leonid Yavits, Shahar Kvatinsky, Ran Ginosar",
+    "container": "ACM Transactions on Architecture and Code Optimization",
+    "volume": "12",
+    "issue": "4",
+    "pages": "1-22",
+    "year": 2016,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "type": "journal-article"
+   }
+  ]
+ },
+ "szekely2007": {
+  "crossref_search": [
+   {
+    "doi": "10.1214/009053607000000505",
+    "title": "Measuring and testing dependence by correlation of distances",
+    "authors": "G\u00e1bor J. Sz\u00e9kely, Maria L. Rizzo, Nail K. Bakirov",
+    "container": "The Annals of Statistics",
+    "volume": "35",
+    "issue": "6",
+    "pages": "2769-2794",
+    "year": 2007,
+    "publisher": "Institute of Mathematical Statistics",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1201/9780429157158",
+    "title": "The Energy of Data and Distance Correlation",
+    "authors": "Gabor J. Szekely, Maria L. Rizzo",
+    "container": "",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "year": 2022,
+    "publisher": "Chapman and Hall/CRC",
+    "type": "monograph"
+   },
+   {
+    "doi": "10.1007/s00357-005-0012-9",
+    "title": "Hierarchical Clustering via Joint Between-Within Distances: Extending Ward's Minimum Variance Method",
+    "authors": "Gabor J. Szekely, Maria L. Rizzo",
+    "container": "Journal of Classification",
+    "volume": "22",
+    "issue": "2",
+    "pages": "151-183",
+    "year": 2005,
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article"
+   }
+  ]
+ },
+ "kocher1999": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/3-540-48405-1_25",
+    "title": "Differential Power Analysis",
+    "authors": "Paul Kocher, Joshua Jaffe, Benjamin Jun",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "388-397",
+    "year": 1999,
+    "publisher": "Springer Berlin Heidelberg",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/s13389-011-0006-y",
+    "title": "Introduction to differential power analysis",
+    "authors": "Paul Kocher, Joshua Jaffe, Benjamin Jun, Pankaj Rohatgi",
+    "container": "Journal of Cryptographic Engineering",
+    "volume": "1",
+    "issue": "1",
+    "pages": "5-27",
+    "year": 2011,
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1109/icasic.2007.4415761",
+    "title": "VLSI implementation of an AES algorithm resistant to Differential Power Analysis attack",
+    "authors": "Jia Zhao, Jun Han, Xiaoyang Zeng, Jun Chen",
+    "container": "2007 7th International Conference on ASIC",
+    "volume": null,
+    "issue": null,
+    "pages": "838-841",
+    "year": 2007,
+    "publisher": "IEEE",
+    "type": "proceedings-article"
+   }
+  ]
+ },
+ "chari1999": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/3-540-48405-1_26",
+    "title": "Towards Sound Approaches to Counteract Power-Analysis Attacks",
+    "authors": "Suresh Chari, Charanjit S. Jutla, Josyula R. Rao, Pankaj Rohatgi",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "398-412",
+    "year": 1999,
+    "publisher": "Springer Berlin Heidelberg",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/978-0-387-21798-7_19",
+    "title": "Power analysis: attacks and countermeasures",
+    "authors": "Suresh Chari, Charanjit S. Jutla, Josyula R. Rao, Pankaj Rohatgi",
+    "container": "Monographs in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "415-439",
+    "year": 2003,
+    "publisher": "Springer New York",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1007/3-540-36400-5_3",
+    "title": "Template Attacks",
+    "authors": "Suresh Chari, Josyula R. Rao, Pankaj Rohatgi",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "13-28",
+    "year": 2003,
+    "publisher": "Springer Berlin Heidelberg",
+    "type": "book-chapter"
+   }
+  ]
+ },
+ "heinz2022mkm4": {
+  "crossref_search": [
+   {
+    "doi": "10.46586/tches.v2021.i1.1-24",
+    "title": "Compact Dilithium Implementations on Cortex-M3 and Cortex-M4",
+    "authors": "Denisa O. C. Greconici, Matthias J. Kannwischer, Daan Sprenkels",
+    "container": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "volume": null,
+    "issue": null,
+    "pages": "1-24",
+    "year": 2020,
+    "publisher": "Universitatsbibliothek der Ruhr-Universitat Bochum",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1007/978-3-031-09234-3_42",
+    "title": "Faster Kyber and\u00a0Dilithium on\u00a0the\u00a0Cortex-M4",
+    "authors": "Amin Abdulrahman, Vincent Hwang, Matthias J. Kannwischer, Amber Sprenkels",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "853-871",
+    "year": 2022,
+    "publisher": "Springer International Publishing",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1109/2575-8411.2026.00069",
+    "title": "Memory-Optimized Masked CRYSTALS-Kyber Implementation on ARM Cortex-M4",
+    "authors": "Ruiqi Hou, Yiwen Gao, Wei Cheng, Yuejun Liu, Jingdian Ming, Yongbin Zhou",
+    "container": "2026 IEEE 46th International Conference on Distributed Computing Systems (ICDCS)",
+    "volume": null,
+    "issue": null,
+    "pages": "664-674",
+    "year": 2026,
+    "publisher": "IEEE",
+    "type": "proceedings-article"
+   }
+  ]
+ },
+ "kannwischer2019pqm4": {
+  "crossref_search": [
+   {
+    "doi": "10.1007/978-3-030-21568-2_14",
+    "title": "Faster Multiplication in $$\\mathbb {Z}_{2^m}[x]$$ on Cortex-M4 to Speed up NIST PQC Candidates",
+    "authors": "Matthias J. Kannwischer, Joost Rijneveld, Peter Schwabe",
+    "container": "Lecture Notes in Computer Science",
+    "volume": null,
+    "issue": null,
+    "pages": "281-301",
+    "year": 2019,
+    "publisher": "Springer International Publishing",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1016/b978-0-12-408082-9.00021-x",
+    "title": "ARM\u00ae Cortex\u00ae-M4 and DSP Applications",
+    "authors": "Joseph Yiu",
+    "container": "The Definitive Guide to ARM\u00ae CORTEX\u00ae-M3 and CORTEX\u00ae-M4 Processors",
+    "volume": null,
+    "issue": null,
+    "pages": "673-716",
+    "year": 2014,
+    "publisher": "Elsevier",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1002/9781119078227.ch1",
+    "title": "ARM\n                    <sup>\u00ae</sup>\n                    CORTEX\n                    <sup>\u00ae</sup>\n                    \u2010M4 Development Systems",
+    "authors": "",
+    "container": "Digital Signal Processing Using the ARM\u00ae CORTEX\u00ae\u2010M4",
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "year": 2015,
+    "publisher": "Wiley",
+    "type": "other"
+   }
+  ]
+ },
+ "granmo2018": {
+  "crossref_search": [
+   {
+    "doi": "10.1016/j.patrec.2016.06.007",
+    "title": "A game-theoretic approach to sub-vertex registration",
+    "authors": "Rong Wang, Zheng Geng, Xuan Cao, Renjing Pei, Xiangbing Meng",
+    "container": "Pattern Recognition Letters",
+    "volume": "80",
+    "issue": null,
+    "pages": "98-106",
+    "year": 2016,
+    "publisher": "Elsevier BV",
+    "type": "journal-article"
+   },
+   {
+    "doi": "10.1017/cbo9780511981418.002",
+    "title": "Game theory",
+    "authors": "",
+    "container": "Independence-Friendly Logic",
+    "volume": null,
+    "issue": null,
+    "pages": "9-27",
+    "year": 2011,
+    "publisher": "Cambridge University Press",
+    "type": "book-chapter"
+   },
+   {
+    "doi": "10.1016/b978-0-444-81704-4.50017-x",
+    "title": "Representing Propositional Logic and Searching for Satisfiability in Connectionist Networks",
+    "authors": "",
+    "container": "Machine Intelligence and Pattern Recognition",
+    "volume": null,
+    "issue": null,
+    "pages": "279-301",
+    "year": 1994,
+    "publisher": "Elsevier",
+    "type": "book-chapter"
+   }
+  ],
+  "arxiv": {
+   "arxiv": "1804.01508",
+   "title": "The Tsetlin Machine -- A Game Theoretic Bandit Driven Approach to Optimal Pattern Recognition with Propositional Logic",
+   "authors": "Ole-Christoffer Granmo",
+   "published": "2018-04-04",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "hnilov2025fptm": {
+  "arxiv": {
+   "arxiv": "2508.08350",
+   "title": "Fuzzy-Pattern Tsetlin Machine",
+   "authors": "Artem Hnilov",
+   "published": "2025-08-11",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "karayalcin2025": {
+  "arxiv": {
+   "arxiv": "2502.00384",
+   "title": "Interpreting Emergent Features in Deep Learning-based Side-channel Analysis",
+   "authors": "Sengim Karayal\u00e7in, Marina Kr\u010dek, Stjepan Picek",
+   "published": "2025-02-01",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "gammell2024": {
+  "arxiv": {
+   "arxiv": "2410.22425",
+   "title": "Power side-channel leakage localization through adversarial training of deep neural networks",
+   "authors": "Jimmy Gammell, Anand Raghunathan, Kaushik Roy",
+   "published": "2024-10-29",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "bostanci2024impact": {
+  "arxiv": {
+   "arxiv": "2404.11284",
+   "title": "Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory",
+   "authors": "F. Nisa Bostanci, Konstantinos Kanellopoulos, Ataberk Olgun, A. Giray Yaglikci, Ismail Emir Yuksel, Nika Mansouri Ghiasi, Zulal Bingol, Mohammad Sadrosadati, Onur Mutlu",
+   "published": "2024-04-17",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "wang2023powergan": {
+  "arxiv": {
+   "arxiv": "2304.11056",
+   "title": "PowerGAN: A Machine Learning Approach for Power Side-Channel Attack on Compute-in-Memory Accelerators",
+   "authors": "Ziyu Wang, Yuting Wu, Yongmo Park, Sangmin Yoo, Xinxin Wang, Jason K. Eshraghian, Wei D. Lu",
+   "published": "2023-04-13",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "jaiswal2026ids": {
+  "arxiv": {
+   "arxiv": "2604.03205",
+   "title": "A Tsetlin Machine-driven Intrusion Detection System for Next-Generation IoMT Security",
+   "authors": "Rahul Jaiswal, Per-Arne Andersen, Linga Reddy Cenkeramaddi, Lei Jiao, Ole-Christoffer Granmo",
+   "published": "2026-04-03",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "jaiswal2026pdf": {
+  "arxiv": {
+   "arxiv": "2607.09290",
+   "title": "Leveraging Interpretable Tsetlin Machine for PDF Malware Detection",
+   "authors": "Rahul Jaiswal, Ole-Christoffer Granmo",
+   "published": "2026-07-10",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "mikulec2026adla": {
+  "arxiv": {
+   "arxiv": "2603.18647",
+   "title": "Beyond TVLA: Anderson-Darling Leakage Assessment for Neural Network Side-Channel Leakage Detection",
+   "authors": "J\u00e1n Mikulec, Jakub Breier, Xiaolu Hou",
+   "published": "2026-03-19",
+   "journal_ref": null,
+   "doi": null
+  }
+ },
+ "peeking2026": {
+  "arxiv": {
+   "arxiv": "2609.33597",
+   "title": "The Price of Peeking: Anytime-Valid Leakage Detection on ML-KEM EM Traces",
+   "authors": "Georgios Feretzakis, Alexandros Papaspyridis",
+   "published": "2026-09-27",
+   "journal_ref": null,
+   "doi": null
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{"N": 250, "r": 0, "fptm": -0.271, "fptm_acc": 0.5000, "sec": 1.8}
+{"N": 250, "r": 1, "fptm": -0.271, "fptm_acc": 0.5000, "sec": 1.2}
+{"N": 250, "r": 2, "fptm": -0.271, "fptm_acc": 0.5000, "sec": 1.1}
+{"N": 500, "r": 0, "fptm": -0.280, "fptm_acc": 0.5000, "sec": 2.1}
+{"N": 500, "r": 1, "fptm": -0.205, "fptm_acc": 0.4920, "sec": 2.3}
+{"N": 500, "r": 2, "fptm": -0.546, "fptm_acc": 0.5200, "sec": 2.3}
+{"N": 1000, "r": 0, "fptm": -19.786, "fptm_acc": 0.7040, "sec": 4.4}
+{"N": 1000, "r": 1, "fptm": -15.870, "fptm_acc": 0.6820, "sec": 4.6}
+{"N": 1000, "r": 2, "fptm": -33.078, "fptm_acc": 0.7640, "sec": 4.5}
+{"N": 2000, "r": 0, "fptm": -150.973, "fptm_acc": 0.8890, "sec": 7.2}
+{"N": 2000, "r": 1, "fptm": -161.174, "fptm_acc": 0.9000, "sec": 7.2}
+{"N": 2000, "r": 2, "fptm": -151.878, "fptm_acc": 0.8900, "sec": 7.1}
+{"N": 4000, "r": 0, "fptm": -332.792, "fptm_acc": 0.9060, "sec": 11.1}
+{"N": 4000, "r": 1, "fptm": -321.172, "fptm_acc": 0.9000, "sec": 10.8}
+{"N": 4000, "r": 2, "fptm": -343.764, "fptm_acc": 0.9115, "sec": 10.9}
+{"N": 8000, "r": 0, "fptm": -714.056, "fptm_acc": 0.9183, "sec": 18.6}
+{"N": 8000, "r": 1, "fptm": -744.038, "fptm_acc": 0.9253, "sec": 18.4}
+{"N": 8000, "r": 2, "fptm": -710.913, "fptm_acc": 0.9175, "sec": 19.4}
+{"N": 12000, "r": 0, "fptm": -1078.277, "fptm_acc": 0.9195, "sec": 25.9}
+{"N": 12000, "r": 1, "fptm": -1094.250, "fptm_acc": 0.9220, "sec": 25.6}
+{"N": 12000, "r": 2, "fptm": -1074.055, "fptm_acc": 0.9188, "sec": 25.5}
+ERROR: LoadError: SystemError: opening file "/home/claude/work/sweep_mkm4/list.txt": No such file or directory
+Stacktrace:
+  [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+    @ Base ./error.jl:186
+  [2] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Nothing, append::Nothing)
+    @ Base ./iostream.jl:327
+  [3] open
+    @ ./iostream.jl:306 [inlined]
+  [4] #eachline#373
+    @ ./io.jl:1254 [inlined]
+  [5] eachline
+    @ ./io.jl:1253 [inlined]
+  [6] (::var"#3#4")(io::IOStream)
+    @ Main /home/claude/scripts/fptm_sweep2.jl:20
+  [7] open(::var"#3#4", ::String, ::Vararg{String}; kwargs::@Kwargs{})
+    @ Base ./io.jl:429
+  [8] open(::Function, ::String, ::String)
+    @ Base ./io.jl:426
+  [9] top-level scope
+    @ /home/claude/scripts/fptm_sweep2.jl:19
+ [10] include(mod::Module, _path::String)
+    @ Base ./Base.jl:309
+ [11] exec_options(opts::Base.JLOptions)
+    @ Base ./client.jl:344
+ [12] _start()
+    @ Base ./client.jl:577
+in expression starting at /home/claude/scripts/fptm_sweep2.jl:19
+RESTDONE

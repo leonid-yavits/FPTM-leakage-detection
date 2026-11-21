@@ -1,0 +1,16 @@
+ascad K1 sizes 21790 10894 10896 | 1st-order Welch on test: max|t|=2.3 at 376
+ascad K1 RESULT tag=s1 labels=y best_epoch=9 val=0.5470 test=0.5441 (k=5928/n=10896) log10p=-19.72
+ascad K1 RESULT tag=s2 labels=y best_epoch=5 val=0.5533 test=0.5442 (k=5930/n=10896) log10p=-19.87
+ascad K1 RESULT tag=s3 labels=y best_epoch=10 val=0.5439 test=0.5375 (k=5857/n=10896) log10p=-14.61
+pqm4 K1 sizes 6292 3146 3148 | 1st-order Welch on test: max|t|=9.8 at 162
+pqm4 K1 RESULT tag=s1 labels=y best_epoch=4 val=0.6869 test=0.6820 (k=2147/n=3148) log10p=-94.25
+pqm4 K1 RESULT tag=s2 labels=y best_epoch=6 val=0.6894 test=0.6830 (k=2150/n=3148) log10p=-95.25
+pqm4 K1 RESULT tag=s3 labels=y best_epoch=11 val=0.6885 test=0.6814 (k=2145/n=3148) log10p=-93.59
+ascad K5 sizes 21790 10894 10896 | 1st-order Welch on test: max|t|=2.3 at 376
+ascad K5 RESULT tag=s1 labels=y best_epoch=3 val=0.5553 test=0.5444 (k=5932/n=10896) log10p=-20.03
+ascad K5 RESULT tag=s2 labels=y best_epoch=14 val=0.5534 test=0.5464 (k=5954/n=10896) log10p=-21.79
+ascad K5 RESULT tag=s3 labels=y best_epoch=4 val=0.5518 test=0.5407 (k=5891/n=10896) log10p=-16.96
+pqm4 K5 sizes 6292 3146 3148 | 1st-order Welch on test: max|t|=9.8 at 162
+pqm4 K5 RESULT tag=s1 labels=y best_epoch=5 val=0.7174 test=0.7090 (k=2232/n=3148) log10p=-124.79
+pqm4 K5 RESULT tag=s2 labels=y best_epoch=5 val=0.7244 test=0.7093 (k=2233/n=3148) log10p=-125.17
+pqm4 K5 RESULT tag=s3 labels=y best_epoch=5 val=0.7222 test=0.7103 (k=2236/n=3148) log10p=-126.34

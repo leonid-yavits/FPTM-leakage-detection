@@ -1,0 +1,18 @@
+done 8000 0
+done 8000 1
+done 8000 2
+done 16000 0
+done 16000 1
+done 16000 2
+done 32000 0
+done 32000 1
+done 32000 2
+LOC N=8000 r=0 seed=1 acc=0.5487 log10p=-9.43
+LOC N=8000 r=1 seed=2 acc=0.5212 log10p=-2.42
+LOC N=8000 r=2 seed=3 acc=0.5250 log10p=-3.08
+LOC N=16000 r=0 seed=1 acc=0.5484 log10p=-17.59
+LOC N=16000 r=1 seed=2 acc=0.5347 log10p=-9.57
+LOC N=16000 r=2 seed=3 acc=0.5443 log10p=-14.89
+LOC N=32000 r=0 seed=1 acc=0.5467 log10p=-31.77
+LOC N=32000 r=1 seed=2 acc=0.5450 log10p=-29.60
+LOC N=32000 r=2 seed=3 acc=0.5474 log10p=-32.76

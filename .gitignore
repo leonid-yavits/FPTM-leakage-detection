@@ -1,0 +1,12 @@
+dl/
+data/
+work/
+src/
+__pycache__/
+*.pyc
+*.npy
+*.npz
+*.bin
+*.h5
+*.tar.gz
+*.zip

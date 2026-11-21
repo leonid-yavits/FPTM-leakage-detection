@@ -1,0 +1,7 @@
+ascad RESULT tag=s1 labels=y best_epoch=3 val=0.5563 test=0.5358 (k=5838/n=10896) log10p=-13.38
+ascad literals total 7466, samples touched 692
+ascad RESULT tag=s2 labels=y best_epoch=11 val=0.5521 test=0.5457 (k=5946/n=10896) log10p=-21.14
+ascad literals total 7355, samples touched 693
+ascad RESULT tag=s3 labels=y best_epoch=4 val=0.5520 test=0.5410 (k=5895/n=10896) log10p=-17.25
+ascad literals total 7524, samples touched 694
+ascad RESULT tag=null labels=ynull best_epoch=5 val=0.5087 test=0.5000 (k=5448/n=10896) log10p=-0.30

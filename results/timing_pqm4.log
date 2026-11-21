@@ -1,0 +1,5 @@
+welch 1.8
+chi2 4.9
+mvdcov 31.4
+mlp 20.4
+{"ds": "pqm4", "N_all": 9440, "N_train": 6292, "welch": 1.8, "chi2": 4.9, "mvdcov": 31.4, "mlp": 20.4}

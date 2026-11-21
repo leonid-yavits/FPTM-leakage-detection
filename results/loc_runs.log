@@ -1,0 +1,15 @@
+pqm4 RESULT tag=s1 labels=y best_epoch=9 val=0.7101 test=0.7020 (k=2210/n=3148) log10p=-116.43
+pqm4 literals total 9052, samples touched 5371
+pqm4 RESULT tag=s2 labels=y best_epoch=4 val=0.7142 test=0.7106 (k=2237/n=3148) log10p=-126.73
+pqm4 literals total 8781, samples touched 5742
+pqm4 RESULT tag=s3 labels=y best_epoch=9 val=0.7092 test=0.7036 (k=2215/n=3148) log10p=-118.30
+pqm4 literals total 9100, samples touched 5364
+pqm4 RESULT tag=null labels=ynull best_epoch=1 val=0.5099 test=0.5092 (k=1603/n=3148) log10p=-0.81
+ref RESULT tag=s1 labels=y best_epoch=10 val=0.9332 test=0.9240 (k=2892/n=3130) log10p=-578.11
+ref literals total 9570, samples touched 5308
+ref RESULT tag=s2 labels=y best_epoch=9 val=0.9309 test=0.9240 (k=2892/n=3130) log10p=-578.11
+ref literals total 9545, samples touched 5419
+ref RESULT tag=s3 labels=y best_epoch=9 val=0.9329 test=0.9240 (k=2892/n=3130) log10p=-578.11
+ref literals total 9533, samples touched 5348
+ref RESULT tag=null labels=ynull best_epoch=15 val=0.5134 test=0.5093 (k=1594/n=3130) log10p=-0.81
+LOCDONE

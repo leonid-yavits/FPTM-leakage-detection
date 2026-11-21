@@ -1,0 +1,6 @@
+pqm4
+{"train_10ep_s": 79.4, "predict_s": 0.34, "n_test": 3148, "per_trace_us": 109.6}
+ascad
+{"train_10ep_s": 18.2, "predict_s": 0.02, "n_test": 10896, "per_trace_us": 1.4}
+ref
+{"train_10ep_s": 24.9, "predict_s": 0.2, "n_test": 3130, "per_trace_us": 62.7}
