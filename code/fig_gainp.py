@@ -14,8 +14,7 @@ plt.rcParams.update({"font.size": 10, "axes.spines.top": False, "axes.spines.rig
 BLUE, AQUA, YELLOW, GRAY, ORANGE = "#2a78b5", "#2fa39a", "#c99a1a", "#6e6d68", "#e0662b"
 agg = json.load(open(f"{ROOT}/results/aggregate_gainp.json"))
 SIG = [250, 500, 1000, 2000]
-M = [("welch", "Welch", BLUE, "s"), ("chi2", r"$\chi^2$", AQUA, "D"), ("mvdcov", "MV-dCov", YELLOW, "v"),
-     ("mlp", "DL-LA MLP", GRAY, "X"), ("fptm", "FPTM", ORANGE, "o")]
+M = [("welch", "Welch", BLUE, "s"), ("chi2", r"$\chi^2$", AQUA, "D"), ("mlp", "DL-LA", GRAY, "X"), ("fptm", "FPTM", ORANGE, "o")]
 
 fig = plt.figure(figsize=(12, 4.8))
 gs = GridSpec(3, 2, figure=fig, height_ratios=[0.13, 0.5, 0.5], width_ratios=[1, 1.55], wspace=0.22, hspace=0.18)
@@ -40,7 +39,7 @@ ax.set_xticks(SIG); ax.set_xticklabels([str(s) for s in SIG])
 ax.set_xlabel(r"Noise standard deviation $\sigma$ (fJ)"); ax.set_ylabel("Traces to detection")
 ax.set_ylim(300, 2.2e5); ax.set_title("(a) Detection", fontsize=11, loc="left")
 h = [Line2D([], [], color=c, marker=mk, ms=8, lw=2, mec="white", label=lab) for _, lab, c, mk in M]
-axl.legend(handles=h, loc="center", ncol=3, frameon=False, fontsize=9.5)
+axl.legend(handles=h, loc="center", ncol=4, frameon=False, fontsize=9.5)
 
 # (b) per-cycle leakage and FPTM score, sigma = 1000 fJ
 g = np.load(f"{ROOT}/data/gainp_s1000/gt.npz"); D = len(g["leak"]); x = np.arange(D)

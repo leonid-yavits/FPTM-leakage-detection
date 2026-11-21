@@ -11,7 +11,7 @@ OUT = sys.argv[1]; which = sys.argv[2].split(",")
 BLUE, ORANGE, GRAY, AQUA, VIOLET, YELLOW, RED = "#2a78d6", "#eb6834", "#52514e", "#1baf7a", "#6250d6", "#eda100", "#e34948"
 plt.rcParams.update({"font.size": 11, "axes.spines.top": False, "axes.spines.right": False, "axes.edgecolor": "#8a8984",
                      "axes.grid": True, "grid.color": "#e6e5e0", "grid.linewidth": 0.6, "pdf.fonttype": 42})
-W = f"{ROOT}/work"
+W = ROOT + "/work"
 
 def S_mean(ds, D):
     return np.mean([np.fromfile(f"{W}/{ds}_K3/S_s{k}.bin", np.float64)[:D] for k in (1, 2, 3)], axis=0)
@@ -39,8 +39,8 @@ if "loc_unmasked" in which:
     fig.savefig(f"{OUT}/fig_loc_unmasked.pdf", bbox_inches="tight"); fig.savefig(f"{OUT}/fig_loc_unmasked.png", dpi=200, bbox_inches="tight")
 
 if "loc_ascad" in which:
-    g = np.load(f"{ROOT}/data/ascad/gt.npz"); D = 700; x = np.arange(D); S = S_mean("ascad", D)
-    SA = np.mean([np.load(f"{W}/ascad_K3/SA_s{k}.npy") for k in (1, 2, 3)], axis=0)
+    g = np.load(ROOT + "/data/ascad/gt.npz"); D = 700; x = np.arange(D); S = S_mean("ascad", D)
+    SA = np.mean([np.load(f"{W}/ascad_K3/SAsel_s{k}.npy") for k in (1, 2, 3)], axis=0)
     mask = np.maximum(g["snr_mask0"], g["snr_mask15"]); mval = np.maximum(g["snr_vmask0"], g["snr_vmask15"])
     fig = plt.figure(figsize=(9, 7.8))
     gs = GridSpec(5, 1, figure=fig, height_ratios=[0.12, 1, 1, 1, 1], hspace=0.35)
@@ -54,14 +54,14 @@ if "loc_ascad" in which:
     for a in (a0, a1, a2): plt.setp(a.get_xticklabels(), visible=False)
     axl.legend(handles=[Line2D([], [], color=AQUA, lw=2, label="Mask share"), Line2D([], [], color=VIOLET, lw=2, label="Masked value share"),
                         Line2D([], [], color=GRAY, lw=2, ls="--", label="Unmasked value"), Line2D([], [], color=ORANGE, lw=2, label="FPTM S(t)"),
-                        Line2D([], [], color=BLUE, lw=2, label="DL-LA sensitivity")],
+                        Line2D([], [], color=BLUE, lw=2, label="DL-LA sensitivity, epoch selected")],
                loc="center", ncol=5, frameon=False, fontsize=9.5)
     fig.savefig(f"{OUT}/fig_loc_ascad.pdf", bbox_inches="tight"); fig.savefig(f"{OUT}/fig_loc_ascad.png", dpi=200, bbox_inches="tight")
 
 if "ttd" in which:
-    agg = json.load(open(f"{ROOT}/results/aggregate.json"))
-    M = [("welch", "Welch", BLUE, "s", "-"), ("chi2", r"$\chi^2$", AQUA, "D", "-"), ("mvdcov", "MV-dCov", YELLOW, "v", "-"),
-         ("welch2", "Welch, 2nd order", VIOLET, "^", "--"), ("biv", "Bivariate Welch", RED, "P", "--"), ("mlp", "DL-LA MLP", GRAY, "X", "-"),
+    agg = json.load(open(ROOT + "/results/aggregate.json"))
+    M = [("welch", "Welch", BLUE, "s", "-"), ("chi2", r"$\chi^2$", AQUA, "D", "-"),
+         ("welch2", "Welch, 2nd order", VIOLET, "^", "--"), ("biv", "Bivariate Welch", RED, "P", "--"), ("mlp", "DL-LA", GRAY, "X", "-"),
          ("fptm", "FPTM", ORANGE, "o", "-")]
     sets = [d for d in ("ref", "pqm4", "ascad") if d in agg]; TOP = 2000.0
     TITLE = {"ref": "ref", "pqm4": "pqm4", "ascad": "ASCAD"}

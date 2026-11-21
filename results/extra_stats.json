@@ -1,0 +1,98 @@
+{
+ "K_ablation_p@20": {
+  "pqm4_K1": 0.65,
+  "pqm4_K3": 0.65,
+  "pqm4_K5": 0.7,
+  "ascad_K1": 1.0,
+  "ascad_K3": 1.0,
+  "ascad_K5": 1.0
+ },
+ "no_tolerance": {
+  "ref": {
+   "p@10": 1.0,
+   "p@20": 1.0,
+   "chance": 0.0024691358024691358
+  },
+  "pqm4": {
+   "p@10": 0.6,
+   "p@20": 0.35,
+   "chance": 0.000501002004008016
+  },
+  "ascad": {
+   "p@10": 1.0,
+   "p@20": 1.0,
+   "chance": 0.19714285714285715
+  }
+ },
+ "vote_weighted_top10_overlap": {
+  "ref": [
+   7,
+   7,
+   6
+  ],
+  "pqm4": [
+   9,
+   9,
+   10
+  ],
+  "ascad": [
+   7,
+   10,
+   8
+  ]
+ },
+ "mkm4_shares": {
+  "s0_range": [
+   -1664,
+   1664
+  ],
+  "s1_range": [
+   -1633,
+   4961
+  ],
+  "corr_s1_b0": 0.7150007579997001,
+  "corr_s0_b0": -0.014688355350465527
+ },
+ "drift_pqm4_fixed_key_transcribed": {
+  "source": "feasibility run of 20 Nov 2026 (drift.py), Welch t on 10,000 vs 10,000 traces, 20,000 samples, threshold 4.5",
+  "chunk0_random_interleaved_halves": {
+   "max_t": 3.4,
+   "samples_over_4.5": 0
+  },
+  "chunk0_first_vs_second_half": {
+   "max_t": 14.0,
+   "samples_over_4.5": 13191
+  },
+  "chunk0_vs_chunk1": {
+   "max_t": 15.4,
+   "samples_over_4.5": 13604
+  },
+  "chunk0_vs_chunk19": {
+   "max_t": 90.0,
+   "samples_over_4.5": 18399
+  },
+  "fixed_chunk0_vs_variable_chunk0": {
+   "max_t": 127.9,
+   "samples_over_4.5": 18701
+  }
+ },
+ "mkm4_peak": {
+  "peak_abs_t": 7.263131669864656,
+  "peak_sample_in_window": 465,
+  "mean_by_hw": {
+   "0": 1.7142857142857142,
+   "1": 1.1,
+   "2": 0.21298701298701297,
+   "3": -0.23963133640552994,
+   "4": -0.2110354711572913,
+   "5": -0.3639269406392694,
+   "6": -0.4431462549551429,
+   "7": -0.5904090267983074,
+   "8": -0.7309299895506792,
+   "9": -0.7735294117647059,
+   "10": -1.0310077519379846,
+   "11": -0.42857142857142855
+  },
+  "perm_max_abs_t_462_467": 0.6073030371104385
+ }
+}

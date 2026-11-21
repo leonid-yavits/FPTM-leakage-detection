@@ -1,0 +1,50 @@
+{"variant": "shares_no_overlap", "samples": 161, "traces": 43580, "chi2_log10p": 0.0, "welch_log10p": 0.0}
+{
+ "variant": "shares_no_overlap",
+ "samples": 161,
+ "traces": 43580,
+ "chi2_log10p": 0.0,
+ "welch_log10p": 0.0,
+ "chance_in_subset": 0.7763975155279503,
+ "p@10": 0.8,
+ "p@10_seeds": [
+  0.9,
+  1.0,
+  0.9
+ ],
+ "p@20": 0.85,
+ "p@20_seeds": [
+  0.85,
+  0.95,
+  0.75
+ ],
+ "top20_mask_region": 4,
+ "top20_mv_region": 16,
+ "top20": [
+  97,
+  98,
+  101,
+  114,
+  470,
+  480,
+  493,
+  494,
+  495,
+  514,
+  516,
+  517,
+  518,
+  520,
+  521,
+  544,
+  559,
+  565,
+  566,
+  567
+ ],
+ "fptm_runs": [
+  "RESULT tag=s1 labels=y best_epoch=13 val=0.5227 test=0.5159 (k=5621/n=10896) log10p=-3.32",
+  "RESULT tag=s2 labels=y best_epoch=10 val=0.5200 test=0.5111 (k=5569/n=10896) log10p=-1.98",
+  "RESULT tag=s3 labels=y best_epoch=1 val=0.5264 test=0.5206 (k=5673/n=10896) log10p=-5.07"
+ ]
+}

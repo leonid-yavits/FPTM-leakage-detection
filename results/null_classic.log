@@ -1,0 +1,4 @@
+ref {"N": 12000, "false_detections_welch": 0, "false_detections_chi2": 0, "min_log10p_welch": -1.6861096043094275, "min_log10p_chi2": -0.7631792463642926}
+pqm4 {"N": 12000, "false_detections_welch": 0, "false_detections_chi2": 0, "min_log10p_welch": -0.9873185467198926, "min_log10p_chi2": -0.7806850751786243}
+mkm4 {"N": 12000, "false_detections_welch": 0, "false_detections_chi2": 0, "min_log10p_welch": -0.45666754030533596, "min_log10p_chi2": 0.0}
+ascad {"N": 40000, "false_detections_welch": 0, "false_detections_chi2": 0, "min_log10p_welch": -0.34936837116959873, "min_log10p_chi2": -0.8911409008133391}

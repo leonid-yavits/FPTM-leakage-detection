@@ -1,0 +1,32 @@
+{
+ "N": 32686,
+ "bivariate": {
+  "p@5": 1.0,
+  "p@10": 1.0,
+  "p@20": 1.0,
+  "p@50": 1.0,
+  "p0@20": 1.0,
+  "top20_mask_region": 12,
+  "top20_value_region": 19,
+  "top20_overlap": 12,
+  "top20_mask_outside_overlap": 0,
+  "top20_value_outside_overlap": 8
+ },
+ "chi2": {
+  "p@5": 1.0,
+  "p@10": 1.0,
+  "p@20": 0.85,
+  "p@50": 0.58,
+  "p0@20": 0.8,
+  "top20_mask_region": 16,
+  "top20_value_region": 14,
+  "top20_overlap": 16,
+  "top20_mask_outside_overlap": 0,
+  "top20_value_outside_overlap": 1
+ },
+ "fptm_top20_overlap": 7,
+ "fptm_top20_mask_outside_overlap": 1,
+ "fptm_top20_value_outside_overlap": 12,
+ "fptm_top20_mask_region": 8,
+ "fptm_top20_value_region": 18
+}

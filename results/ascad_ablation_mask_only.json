@@ -1,0 +1,50 @@
+{
+ "variant": "mask_only",
+ "samples": 79,
+ "traces": 43580,
+ "chi2_log10p": 0.0,
+ "welch_log10p": 0.0,
+ "chance_in_subset": 1.0,
+ "p@10": 1.0,
+ "p@10_seeds": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "p@20": 1.0,
+ "p@20_seeds": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "top20_mask_share": 20,
+ "top20_mv_share": 0,
+ "top20_neither": 0,
+ "top20": [
+  96,
+  100,
+  101,
+  102,
+  114,
+  117,
+  128,
+  133,
+  195,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  271,
+  272,
+  273,
+  274,
+  276
+ ],
+ "fptm_runs": [
+  "RESULT tag=s1 labels=y best_epoch=12 val=0.5028 test=0.4976 (k=5422/n=10896) log10p=-0.16",
+  "RESULT tag=s2 labels=y best_epoch=2 val=0.5084 test=0.5107 (k=5565/n=10896) log10p=-1.89",
+  "RESULT tag=s3 labels=y best_epoch=11 val=0.5044 test=0.5011 (k=5460/n=10896) log10p=-0.38"
+ ]
+}

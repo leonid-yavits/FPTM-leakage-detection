@@ -1,0 +1,3 @@
+ascad {'train_traces': 21790, 'nodes': 2060024, 'internal_nodes': 1029862, 'leaves': 1030162, 'max_depth': 69}
+pqm4 {'train_traces': 6292, 'nodes': 366454, 'internal_nodes': 183077, 'leaves': 183377, 'max_depth': 69}
+ref {'train_traces': 6256, 'nodes': 269614, 'internal_nodes': 134657, 'leaves': 134957, 'max_depth': 48}

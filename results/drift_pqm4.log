@@ -1,0 +1,17 @@
+raw           F0 half vs half  max|t|=  14.0 at 10015  #|t|>4.5=13191 of 20000
+mean-removed  F0 half vs half  max|t|=  14.0 at 10015  #|t|>4.5=13186 of 20000
+z-normalized  F0 half vs half  max|t|=  14.0 at 10015  #|t|>4.5=13180 of 20000
+raw           F0 random split  max|t|=   3.4 at  6864  #|t|>4.5=    0 of 20000
+raw           F0 vs F1 (adjacent chunks) max|t|=  15.4 at  9824  #|t|>4.5=13604 of 20000
+mean-removed  F0 vs F1 (adjacent chunks) max|t|=  15.3 at  9824  #|t|>4.5=13600 of 20000
+z-normalized  F0 vs F1 (adjacent chunks) max|t|=  15.3 at  9824  #|t|>4.5=13606 of 20000
+raw           F0 vs F19 (distant chunks) max|t|=  90.0 at  8029  #|t|>4.5=18399 of 20000
+mean-removed  F0 vs F19 (distant chunks) max|t|=  90.0 at  8029  #|t|>4.5=18390 of 20000
+z-normalized  F0 vs F19 (distant chunks) max|t|=  90.0 at  8029  #|t|>4.5=18393 of 20000
+raw           V0 vs V1         max|t|=  18.5 at   172  #|t|>4.5=14544 of 20000
+mean-removed  V0 vs V1         max|t|=  18.1 at   172  #|t|>4.5=14539 of 20000
+z-normalized  V0 vs V1         max|t|=  18.1 at   245  #|t|>4.5=14551 of 20000
+raw           F0 vs V0 (fixed vs variable) max|t|= 127.9 at  3640  #|t|>4.5=18701 of 20000
+mean-removed  F0 vs V0 (fixed vs variable) max|t|= 128.1 at  3640  #|t|>4.5=18702 of 20000
+z-normalized  F0 vs V0 (fixed vs variable) max|t|= 127.9 at  3640  #|t|>4.5=18703 of 20000
+DONE
