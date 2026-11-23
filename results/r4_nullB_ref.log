@@ -1,0 +1,15 @@
+perm 1
+RESULT tag=n1 labels=ynull1 best_epoch=7 val=0.5189 test=0.5067 (k=1586/n=3130) log10p=-0.63
+literals total 8424, samples touched 5439
+perm 2
+RESULT tag=n2 labels=ynull2 best_epoch=12 val=0.5121 test=0.5019 (k=1571/n=3130) log10p=-0.37
+literals total 8911, samples touched 5197
+perm 3
+RESULT tag=n3 labels=ynull3 best_epoch=4 val=0.5185 test=0.5064 (k=1585/n=3130) log10p=-0.61
+literals total 8532, samples touched 5705
+perm 4
+RESULT tag=n4 labels=ynull4 best_epoch=9 val=0.5058 test=0.5141 (k=1609/n=3130) log10p=-1.22
+literals total 8684, samples touched 5313
+perm 5
+RESULT tag=n5 labels=ynull5 best_epoch=5 val=0.5086 test=0.4946 (k=1548/n=3130) log10p=-0.13
+literals total 8353, samples touched 5579

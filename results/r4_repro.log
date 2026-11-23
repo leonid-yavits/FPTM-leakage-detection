@@ -1,0 +1,5 @@
+RESULT tag=repA labels=y best_epoch=10 val=0.5520 test=0.5460 (k=5949/n=10896) log10p=-21.38
+literals total 7318, samples touched 694
+RESULT tag=repB labels=y best_epoch=10 val=0.5520 test=0.5460 (k=5949/n=10896) log10p=-21.38
+literals total 7318, samples touched 694
+DIFFERENT

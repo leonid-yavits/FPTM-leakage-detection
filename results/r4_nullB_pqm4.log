@@ -1,0 +1,9 @@
+perm 1
+RESULT tag=n1 labels=ynull1 best_epoch=1 val=0.5245 test=0.4984 (k=1569/n=3148) log10p=-0.24
+literals total 11193, samples touched 8024
+perm 2
+RESULT tag=n2 labels=ynull2 best_epoch=2 val=0.5134 test=0.4997 (k=1573/n=3148) log10p=-0.28
+literals total 9240, samples touched 6777
+perm 3
+RESULT tag=n3 labels=ynull3 best_epoch=4 val=0.5194 test=0.5022 (k=1581/n=3148) log10p=-0.39
+literals total 8443, samples touched 6137

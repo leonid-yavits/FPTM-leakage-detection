@@ -2,7 +2,7 @@
 
 Code and raw results for the paper "Interpretable Side Channel Leakage Assessment with the Fuzzy-Pattern Tsetlin Machine" by Itamar Levi, Artem Hnilov, Alexander Fish and Leonid Yavits (manuscript in preparation).
 
-A Fuzzy-Pattern Tsetlin Machine (FPTM) classifier is trained on threshold-coded side channel traces. Leakage is detected with a one-sided binomial test on held-out accuracy (p < 1e-5). The included clause literals rank the leaking trace samples. The repository compares the detector with Welch and chi-squared tests, MV-dCov, DL-LA (with sensitivity analysis), second-order Welch and exhaustive bivariate Welch on four public trace sets.
+A Fuzzy-Pattern Tsetlin Machine (FPTM) classifier is trained on threshold-coded side channel traces. Leakage is detected with a one-sided binomial test on test accuracy (p < 1e-5). The included clause literals rank the leaking trace samples. The repository compares the detector with Welch and chi-squared tests, MV-dCov, DL-LA (with sensitivity analysis), second-order Welch and exhaustive bivariate Welch on four public trace sets.
 
 ## Contents
 
@@ -66,9 +66,11 @@ All scripts resolve paths against one root folder:
     * `code/dump_model.jl` and `code/gainp_fptm.py`: FPTM inference on the GainP model for any trained model, with a check that votes and predictions equal the Julia implementation (`results/gainp_fptm_<set>.json`).
     * `python3 -I code/fig_gainp.py OUTDIR`: GainP figure.
 11. **References.** `code/verify_refs.py` pulls Crossref and arXiv metadata for every reference (`results/reference_metadata_raw.json`).
+12. **Repeated sweeps and controls** (review rounds 1 to 3). `code/sweep_rep.py` and `code/run_rep.sh` (ten subsets per trace count, `results/*_rep_sweep.jsonl`, `code/agg_rep.py`), `code/rf_sweep.py` and `code/run_rf.sh` / `code/run_rf_ascad.sh` (random forest and epoch-selected DL-LA, `results/*_rep_rf.jsonl`), `code/loc_baselines.py` (DL-LA SA, IG, occlusion, random forest localization), `code/ascad_ablation.py`, `code/run_ablation2.sh`, `code/rf_ablation.py` and `code/table_ablation.py` (ASCAD region ablation), `code/rf_size.py`, `code/clause_null.py`, `code/null_classic.py`, `code/ref_repro.py`, `code/drift.py`.
+13. **Revision of 23 Nov 2026** (review round 4). `code/biv_delta.py` and `code/table_lag.py` (lag-restricted pair tests on ASCAD), `code/mkm4_xwin.py` (label-free cross-window pair test on mkm4), `code/desync.py` (misaligned traces), `code/pca_detect.py` (PCA and LDA inputs), `code/build_heldout.py` (separate pqm4 set from chunks 2 and 3), `code/null_perm.py` (repeated label permutations), `code/gainp_snr.py` (GainP SNR), `code/learned.py` (shared DL-LA, random forest and LDA baselines). Run order: `code/run_r4_b.sh`, `code/run_r4_a2.sh`, then `code/run_r4_extra.sh`. `code/summ_r4.py`, `code/table_r4.py` and `code/table_lag.py` print the paper tables (`results/r4_summary.json`). Training on one thread (`julia -t 1`) reproduces a model exactly for a given seed.
 
 Scripts from the first feasibility run (`classic.py`, `drift.py`, `shift.py`, `align.py`, `prep.py`, `fptm_sweep.jl`, `sweep_idx.py`, `sweep_t.py`, `figs.py`, `loc.py`, `inspect_ledger.py`, `inspect2.py`, `smoke.jl`, `check_*.py`, `check_pred.jl`) are kept for completeness. The paper uses the pipeline above.
 
 ## Configuration used in the paper
 
-FPTM: 200 clauses per polarity, T = 100, s = 100, L = 16, LF = 8, 256 states, include limit 128. Thermometer code with K = 3 per-sample quantile thresholds from the training traces. Decision: one-sided exact binomial test on held-out accuracy at p < 1e-5.
+FPTM: 200 clauses per polarity, T = 100, s = 100, L = 16, LF = 8, 256 states, include limit 128. Thermometer code with K = 3 per-sample quantile thresholds from the training traces. Decision: one-sided exact binomial test on test accuracy at p < 1e-5.

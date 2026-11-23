@@ -1,0 +1,7 @@
+prep ascad 50 (60000, 650)
+RESULT tag=s1 labels=y best_epoch=8 val=0.5090 test=0.5041 (k=5493/n=10896) log10p=-0.71
+literals total 7102, samples touched 650
+RESULT tag=s2 labels=y best_epoch=12 val=0.5082 test=0.5086 (k=5542/n=10896) log10p=-1.44
+literals total 7147, samples touched 650
+RESULT tag=s3 labels=y best_epoch=4 val=0.5039 test=0.4977 (k=5423/n=10896) log10p=-0.16
+literals total 7293, samples touched 650

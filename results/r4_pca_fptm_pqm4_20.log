@@ -1,0 +1,7 @@
+prep pqm4 20
+RESULT tag=s1 labels=y best_epoch=5 val=0.5207 test=0.4902 (k=1543/n=3148) log10p=-0.06
+literals total 7454, samples touched 20
+RESULT tag=s2 labels=y best_epoch=5 val=0.5254 test=0.4921 (k=1549/n=3148) log10p=-0.09
+literals total 7395, samples touched 20
+RESULT tag=s3 labels=y best_epoch=10 val=0.5248 test=0.4882 (k=1537/n=3148) log10p=-0.04
+literals total 7337, samples touched 20

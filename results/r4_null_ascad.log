@@ -1,0 +1,60 @@
+perm 1
+RESULT tag=n1 labels=ynull1 best_epoch=13 val=0.5092 test=0.5054 (k=5507/n=10896) log10p=-0.88
+literals total 7386, samples touched 696
+perm 2
+RESULT tag=n2 labels=ynull2 best_epoch=2 val=0.5091 test=0.5041 (k=5493/n=10896) log10p=-0.71
+literals total 7594, samples touched 696
+perm 3
+RESULT tag=n3 labels=ynull3 best_epoch=12 val=0.5075 test=0.5003 (k=5451/n=10896) log10p=-0.32
+literals total 7334, samples touched 695
+perm 4
+RESULT tag=n4 labels=ynull4 best_epoch=11 val=0.5058 test=0.5030 (k=5481/n=10896) log10p=-0.57
+literals total 7293, samples touched 695
+perm 5
+RESULT tag=n5 labels=ynull5 best_epoch=3 val=0.5105 test=0.5092 (k=5548/n=10896) log10p=-1.55
+literals total 7458, samples touched 696
+perm 6
+RESULT tag=n6 labels=ynull6 best_epoch=3 val=0.5032 test=0.4983 (k=5430/n=10896) log10p=-0.19
+literals total 7517, samples touched 695
+perm 7
+RESULT tag=n7 labels=ynull7 best_epoch=12 val=0.5073 test=0.5058 (k=5511/n=10896) log10p=-0.94
+literals total 7246, samples touched 698
+perm 8
+RESULT tag=n8 labels=ynull8 best_epoch=10 val=0.5068 test=0.4983 (k=5429/n=10896) log10p=-0.19
+literals total 7384, samples touched 696
+perm 9
+RESULT tag=n9 labels=ynull9 best_epoch=7 val=0.5130 test=0.4999 (k=5447/n=10896) log10p=-0.29
+literals total 7409, samples touched 697
+perm 10
+RESULT tag=n10 labels=ynull10 best_epoch=7 val=0.5032 test=0.5047 (k=5499/n=10896) log10p=-0.78
+literals total 7340, samples touched 696
+perm 11
+RESULT tag=n11 labels=ynull11 best_epoch=13 val=0.5058 test=0.5010 (k=5459/n=10896) log10p=-0.38
+literals total 7262, samples touched 696
+perm 12
+RESULT tag=n12 labels=ynull12 best_epoch=1 val=0.5093 test=0.5032 (k=5483/n=10896) log10p=-0.59
+literals total 7971, samples touched 698
+perm 13
+RESULT tag=n13 labels=ynull13 best_epoch=7 val=0.5039 test=0.5032 (k=5483/n=10896) log10p=-0.59
+literals total 7400, samples touched 699
+perm 14
+RESULT tag=n14 labels=ynull14 best_epoch=3 val=0.5050 test=0.4909 (k=5349/n=10896) log10p=-0.01
+literals total 7479, samples touched 698
+perm 15
+RESULT tag=n15 labels=ynull15 best_epoch=14 val=0.5077 test=0.4967 (k=5412/n=10896) log10p=-0.12
+literals total 7365, samples touched 699
+perm 16
+RESULT tag=n16 labels=ynull16 best_epoch=2 val=0.5058 test=0.4943 (k=5386/n=10896) log10p=-0.05
+literals total 7649, samples touched 694
+perm 17
+RESULT tag=n17 labels=ynull17 best_epoch=6 val=0.5095 test=0.4950 (k=5394/n=10896) log10p=-0.07
+literals total 7324, samples touched 700
+perm 18
+RESULT tag=n18 labels=ynull18 best_epoch=8 val=0.5066 test=0.5029 (k=5480/n=10896) log10p=-0.56
+literals total 7316, samples touched 697
+perm 19
+RESULT tag=n19 labels=ynull19 best_epoch=15 val=0.5048 test=0.5007 (k=5456/n=10896) log10p=-0.35
+literals total 7310, samples touched 697
+perm 20
+RESULT tag=n20 labels=ynull20 best_epoch=5 val=0.5072 test=0.5035 (k=5486/n=10896) log10p=-0.63
+literals total 7405, samples touched 697

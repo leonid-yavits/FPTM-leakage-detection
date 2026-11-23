@@ -1,0 +1,7 @@
+prep ascad 0 (60000, 700)
+RESULT tag=s1 labels=y best_epoch=10 val=0.5520 test=0.5460 (k=5949/n=10896) log10p=-21.38
+literals total 7318, samples touched 694
+RESULT tag=s2 labels=y best_epoch=5 val=0.5493 test=0.5505 (k=5998/n=10896) log10p=-25.54
+literals total 7452, samples touched 697
+RESULT tag=s3 labels=y best_epoch=9 val=0.5500 test=0.5428 (k=5914/n=10896) log10p=-18.65
+literals total 7449, samples touched 694
